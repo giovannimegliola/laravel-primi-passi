@@ -27,6 +27,7 @@
             <li>contact 2</li>
             <li>contact 3</li>
             <li>contact 4</li>
+            <li>{{ $name . ' ' . $surname}}</li>
         </ul>
     </body>
 </html>

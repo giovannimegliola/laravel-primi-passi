@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/contacts', function () {
-    return view('contacts');
+    $data = [
+        'name' =>'Taylor',
+        'surname' => 'Otwell'
+    ];
+    return view('contacts', $data);
 });
